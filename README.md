@@ -24,6 +24,7 @@ Install:
 
 
 Prerequisites:
+
     1. basic knowledge of Treasure Data
     
     2. A database, table and some database
