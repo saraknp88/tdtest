@@ -1,3 +1,7 @@
+Summary:
+
+This program gets inputs from user and generates query in treasure data based on the data that user enters.
+
 Requirements:
 
       Python 2.7+
