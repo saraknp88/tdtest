@@ -87,13 +87,3 @@ def outputformat():
     return outFormat
 
 #######################################
-'''def querymaker(tabName, qLimit, mintStamp, maxtStamp, colList):
-    df=td.read_td_table(tabName, engine, limit=qLimi, time_range=(mintStamp,maxtStamp), columns=colList)
-    df'''
-
-
-#######################################
-'''def querymaker():
-    with tdclient.Client(apikey) as client:
-        job = client.query("sample_datasets", "SELECT COUNT(1) FROM www_access")
-'''
