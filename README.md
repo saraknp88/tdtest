@@ -29,6 +29,7 @@ Prerequisites:
      3.python 3.3+
   
 Run the code:
+
       1. clone the code: git clone https://github.com/saraknp88/tdtest.git
       2.Open terminal and change directory to the python package
       3.to run the code in terminal-->.     python tdmainprogram.py
