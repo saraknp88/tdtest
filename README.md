@@ -20,13 +20,19 @@ Install:
 
 
 Prerequisites:
-  1. basic knowledge of Treasure Data
+    1. basic knowledge of Treasure Data
+    
+    2. A database, table and some database
   
-  2. A database, table and some database
+     4.basic query scripting
   
-  4.basic query scripting
+     3.python 3.3+
   
-  3.python 3.3+
+Run the code:
+      1. clone the code: git clone https://github.com/saraknp88/tdtest.git
+      2.Open terminal and change directory to the python package
+      3.to run the code in terminal-->.     python tdmainprogram.py
+      4.answer the prompted question in the command line(terminal) to customize generated query in treasure data based on the data you entered.
 
 Example:
    1. Import required packages and Initialize connection to treasuredata using your apikey.
@@ -46,3 +52,5 @@ Example:
                  df.to_csv('result.csv')
          else:
                 print(tabulate(df, headers=df.columns, tablefmt="grid"))
+                
+                
